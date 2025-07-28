@@ -4,6 +4,6 @@ import { defineConfig } from 'vite';
 const repoName = 'ifv-prototype'; 
 
 export default defineConfig({
-	base: `/${repoName}/`,
-	plugins: [sveltekit()]
+  base: `/${repoName}/`,
+  plugins: [sveltekit()]
 });

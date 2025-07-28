@@ -1,8 +1,7 @@
-// svelte.config.js
 import adapter from '@sveltejs/adapter-static';
 
 const dev = process.env.NODE_ENV === 'development';
-const repoName = 'ifv-prototype';
+const repoName = 'ifv-prototype'; 
 
 export default {
   kit: {
