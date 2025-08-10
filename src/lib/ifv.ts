@@ -13,6 +13,7 @@ export function calculateRIQ(ifvs: IFV[]): { name: string; riq: number }[] {
     const min = Math.min(mu, nu);
     const iq = (max + pi / n) ** 2 + (n - 1) * (min / (n - 1) + pi / n) ** 2;
     const riq = mu >= nu ? iq : -iq;
-    return { name, riq: parseFloat(riq.toFixed(4)) };
+    // return { name, riq: parseFloat(riq.toFixed(4)) };
+    return { name, riq };
   });
 }
