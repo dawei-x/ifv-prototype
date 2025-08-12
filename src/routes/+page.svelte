@@ -18,7 +18,7 @@
 
 	/* ---------- helpers ---------- */
 	function defaultIFV(name: string): IFV { return { name, mu: 0.4, nu: 0.3 }; }
-	function nextPoolName() { return `Pool ${pools.length + 1}`; }
+	function nextPoolName() { return `Candidate Pool ${pools.length + 1}`; }
 	function nextCandidateName() {
 		const len = pools[0]?.ifvs.length ?? 0;
 		return `Candidate ${len + 1}`;
